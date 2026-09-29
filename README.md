@@ -22,7 +22,7 @@ A command-line Python application that simulates the VITEEE counselling seat all
 
 ```
 Vit-Project/
-├── main.py
+├── Councelling.py
 └── README.md      
 ```
 
@@ -67,7 +67,7 @@ No configuration files, environment variables or API keys are required. The camp
 From inside the `Vit-Project` folder, run:
 
 ```bash
-python main.py
+python Councelling.py
 ```
 
 ## How It Works
@@ -108,7 +108,7 @@ python main.py
 | Problem | Fix |
 |---------|-----|
 | `python` is not recognised | Use `python3`, or reinstall Python and tick "Add Python to PATH". |
-| `can't open file 'main.py'` | Make sure you are inside the `Vit-Project` folder (`cd Vit-Project`). |
+| `can't open file 'Counxelling.py'` | Make sure you are inside the `Vit-Project` folder (`cd Vit-Project`). |
 | Old Python version error | Check `python --version`; Python 3.6 or higher is required. |
 | Program keeps re-asking for input | Enter a whole number within the range shown in the prompt, without duplicates. |
 
